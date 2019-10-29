@@ -60,7 +60,6 @@ object ETLUtils {
 //    map2RDD.take(10).foreach(println)  //本地测试
     //保存
     map2RDD.saveAsTextFile(out)
-
     sc.stop()
   }
 }
